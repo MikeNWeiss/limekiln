@@ -1,4 +1,4 @@
-lk <- read.csv("/Users/michaelweiss/Desktop/lkdata.csv")
+lkdata.copy <- read.csv("~/limekiln/lkdata copy.csv", row.names=1)
 
 lk.sot <- lk[lk$heading == "N" | lk$heading == "S", ]
 
